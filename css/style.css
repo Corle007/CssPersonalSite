@@ -10,36 +10,41 @@ body {
 }
 
 h1 {
-  color: #468EAC;
-  font-size: 6rem;
-  margin: 50px auto 0 auto;
+  color: #B5E9FF;
+  font-size: 4rem;
+  margin-top: 0;
 }
 
 h2 {
-  color: #468EAC;
+  color:  #88AFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {
-  color: #468EAC;
+  color: #4993B3;
   font-family: 'Montserrat', sans-serif;
 }
 
 hr {
   border-style: dotted none none none;
-  border-color: #EAF6F6;
-  border-top-width: 10px;
-  margin: 35px 35%;
+  border-color: #34697F;
+  border-top-width: 20px;
+  margin: 50px 40%;
 }
 
 p {
   margin: 0 auto;
+  line-height: 2;
 }
 
 /**** Classes ****/
 .BUTTON_BDK {
    background: #337FCB;
+   background-image: -webkit-gradient(top, #337FCB, #072F57);
    background-image: -webkit-linear-gradient(top, #337FCB, #072F57);
    background-image: -moz-linear-gradient(top, #337FCB, #072F57);
    background-image: -ms-linear-gradient(top, #337FCB, #072F57);
@@ -53,9 +58,10 @@ p {
    font-size: 1.66rem;
    font-weight: 100;
    padding: 35px;
-   box-shadow: 1px 1px 20px 0 #000000;
    -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
+-moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -65,6 +71,7 @@ p {
 .BUTTON_BDK:hover {
    border: groove #0059A0 2px;
    background: #AACCEF;
+   background-image: -webkit-gradient(top, #AACCEF, #072F57);
    background-image: -webkit-linear-gradient(top, #AACCEF, #072F57);
    background-image: -moz-linear-gradient(top, #AACCEF, #072F57);
    background-image: -ms-linear-gradient(top, #AACCEF, #072F57);
@@ -78,7 +85,7 @@ p {
 
 .bottom-container {
   text-align: center;
-  padding: 50px;
+  padding: 10px;
   background-color: #468EAC;
 
 }
@@ -86,8 +93,14 @@ p {
 .btn-div {
   margin: 100px 0 50px;
 }
+.bio-parraf {
+  margin: 35px auto 50px auto;
+  line-height: 2;
+  text-align: justify;
+  width: 50%;
+}
 .contact-me {
-  padding: 50px 0;
+  padding: 0;
 }
 
 .foot-bottom {
@@ -109,15 +122,27 @@ color: white;
 
 .imagediv {
   padding-right: 30px;
+  min-width: 64px;
+}
+.imagediv-long {
+  width: 40%;
+  height: auto;
+  padding-right: 30px;
+  min-width: 64px;
+
 }
 
 .imagedivright {
   padding-left: 30px;
+  min-width: 64px;
 }
 
 .middle-container {
   margin-top: 100px;
 margin-bottom: 50px;
+}
+.profile {
+  margin-bottom: 50px;
 }
 
 .skill-images-3d {
@@ -136,14 +161,23 @@ margin-bottom: 50px;
   display: flex;
   align-items: center;
   line-height: 2;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: left;
   width: 50%;
 }
-
+.skill-row-long {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  width: 50%;
+}
+.title-h2 {
+  color: #B5E9FF;
+}
 .top-container {
   background-color: #468EAC;
-  padding: 100px 0;
-  position: relative;
-
+  padding: 35px;
+  margin: 0;
 }
